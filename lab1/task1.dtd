@@ -1,0 +1,16 @@
+<!ELEMENT library (description,librarian,book*)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT librarian (#PCDATA)>
+<!ELEMENT book (author,preface,part+)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT preface (#PCDATA)>
+<!ELEMENT part (title,chapter+)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT chapter (chpterTitle,summary,section+)>
+<!ELEMENT chpterTitle (#PCDATA)>
+<!ELEMENT summary (#PCDATA)>
+<!ELEMENT section (content)>
+<!ELEMENT content (#PCDATA)>
+<!ATTLIST library location CDATA #REQUIRED>
+<!ATTLIST book ISBN ID #REQUIRED>
+<!ATTLIST part number CDATA #IMPLIED>
