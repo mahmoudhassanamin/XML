@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<library location="egypt-alex-elagami"
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="newXmlSchema.xsd">
+    <description>beautiful lib</description>
+    <librarian>mahmoud hassan amin</librarian>
+    <book ISBN="1234">
+        <author>ahmed</author>
+        <preface>jungel book</preface>
+        <part number="1">
+            <title>intro</title>
+            <chapter>
+                <chpterTitle>one</chpterTitle>
+                <summary>blablabla</summary>
+                <section>
+                    <content>kan ya ma kan</content>
+                </section>
+                <section>
+                    <content>kan ya ma kan</content>
+                </section>
+            </chapter>
+            <chapter>
+                <chpterTitle>two</chpterTitle>
+                <summary>blablabla</summary>
+                <section>
+                    <content>kan ya ma kan</content>
+                </section>
+                <section>
+                    <content>kan ya ma kan</content>
+                </section>
+            </chapter>
+        </part>
+        <part number="2">
+            <title>intro</title>
+            <chapter>
+                <chpterTitle>one</chpterTitle>
+                <summary>blablabla</summary>
+                <section>
+                    <content>kan ya ma kan</content>
+                </section>
+                <section>
+                    <content>kan ya ma kan</content>
+                </section>
+            </chapter>
+            <chapter>
+                <chpterTitle>two</chpterTitle>
+                <summary>blablabla</summary>
+                <section>
+                    <content>kan ya ma kan</content>
+                </section>
+                <section>
+                    <content>kan ya ma kan</content>
+                </section>
+            </chapter>
+        </part>
+    </book>
+    <book ISBN="5678">
+        <author>ahmed</author>
+        <preface>jungel book</preface>
+        <part number="1">
+            <title>intro</title>
+            <chapter>
+                <chpterTitle>one</chpterTitle>
+                <summary>blablabla</summary>
+                <section>
+                    <content>kan ya ma kan</content>
+                </section>
+                <section>
+                    <content>kan ya ma kan</content>
+                </section>
+            </chapter>
+            <chapter>
+                <chpterTitle>two</chpterTitle>
+                <summary>blablabla</summary>
+                <section>
+                    <content>kan ya ma kan</content>
+                </section>
+                <section>
+                    <content>kan ya ma kan</content>
+                </section>
+            </chapter>
+        </part>
+        <part number="2">
+            <title>intro</title>
+            <chapter>
+                <chpterTitle>one</chpterTitle>
+                <summary>blablabla</summary>
+                <section>
+                    <content>kan ya ma kan</content>
+                </section>
+                <section>
+                    <content>kan ya ma kan</content>
+                </section>
+            </chapter>
+            <chapter>
+                <chpterTitle>two</chpterTitle>
+                <summary>blablabla</summary>
+                <section>
+                    <content>kan ya ma kan</content>
+                </section>
+                <section>
+                    <content>kan ya ma kan</content>
+                </section>
+            </chapter>
+        </part>
+    </book>
+</library>

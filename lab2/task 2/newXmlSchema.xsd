@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="library" type="libType"/>
+    <xs:complexType name="libType">
+        <xs:sequence>
+            <xs:element name="description" type="xs:string"/>
+            <xs:element name="librarian" type="xs:string"/>
+            <xs:element name="book" type="bookType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="location" type="xs:string" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="bookType">
+        <xs:sequence>
+            <xs:element name="author" type="xs:string"/>
+            <xs:element name="preface" type="xs:string"/>
+            <xs:element name="part" type="partType" minOccurs="1" maxOccurs="100"/>
+        </xs:sequence>
+         <xs:attribute name="ISBN" type="xs:integer" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="partType">
+        <xs:sequence>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="chapter" type="chapterType" minOccurs="1" maxOccurs="1000"/>
+        </xs:sequence>
+         <xs:attribute name="number" type="xs:integer" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="chapterType">
+        <xs:sequence>
+            <xs:element name="chpterTitle" type="xs:string"/>
+            <xs:element name="summary" type="xs:string"/>
+            <xs:element name="section" type="sectionType" minOccurs="1" maxOccurs="1000"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="sectionType">
+        <xs:sequence>
+            <xs:element name="content" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

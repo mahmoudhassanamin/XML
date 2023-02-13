@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BookStore
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="newXmlSchema.xsd">
+    <book>
+        <Title>jungel book</Title>
+        <Author>ahmed</Author>
+        <Date>2002-05-30</Date>
+        <ISBN>12344</ISBN>
+        <Publisher>dar el nashr</Publisher>
+    </book>
+    <book>
+        <Title>jungel book2</Title>
+        <Author>ahmed</Author>
+        <Date>2002-05-30</Date>
+        <ISBN>12344</ISBN>
+        <Publisher>dar el nashr</Publisher>
+    </book>
+</BookStore>

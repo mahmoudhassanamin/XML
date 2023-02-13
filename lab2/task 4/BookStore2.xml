@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BookStore
+xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+xs:noNamespaceSchemaLocation="newXmlSchema.xsd">
+    <book Category="science" InStock="false">
+        <Title>jungel book</Title>
+        <Author>ahmed</Author>
+    </book>
+    <book Category="fiction">
+        <Title>jungel book</Title>
+        <Author>ahmed</Author>
+    </book>
+    <book InStock="true">
+        <Title>jungel book</Title>
+        <Author>ahmed</Author>
+    </book>
+</BookStore>
